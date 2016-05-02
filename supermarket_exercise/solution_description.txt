@@ -1,0 +1,11 @@
+There are 3 folders in the archive.
+One is a Java implementation as a Maven project, one is the javadoc for it and I added a python implementation for it as well. The python implementation has comments along the code to make it easier to follow.
+
+I have to mention that I started doing the java implementation using Gradle, but ran into some dependency conflicts with the cucumber API, so I was forced to migrate to Maven.
+Everything is 100% unit tested as I approached the project with a TDD mindset. It also has an integration test scenario using cucumber testing multiple situations. 
+
+If lines 20-27 of the Launcher class get commented in and lines 14-17 get commented out then the app can be started expecting input from the console.
+
+As the nature of the exercise did not have a database connection or anything like that I stuck to either providing a flag for generating a random number of items, or providing the number explicitly.
+
+I  needed to rely on quite a few 3rd party libraries for the testing purposes, which is only ideal in this case and not in a corporate environment, where introducing outside dependencies means supporting APIs that might change at any given time.

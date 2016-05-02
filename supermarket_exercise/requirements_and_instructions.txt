@@ -1,0 +1,22 @@
+Please implement your solution in Java.
+You can spend as little or as much time as you need to complete the exercise, however, you should
+use this as an opportunity to impress us! We expect to see your best code, working and tested. Your
+design skills will be taken into account as well.
+The problem
+Provide us with the code implementation of a supermarket checkout that calculates the total price
+of a basket of items. For simplicity we will use individual letters to identify our items (A, B, C and so
+forth). Each item is priced individually. We also have multi-priced items: when you buy a certain
+number of items you pay a fixed price for all of them. For instance, item ‘B’ costs £1.50 but this week
+we have an offer – “buy three ‘B’s and they’ll cost you £3.50”. This week’s prices are:
+Item Unit Special
+Price Price
+--------------------------
+A £2.00 2 for £3.00
+B £1.50 3 for £3.50
+C £1.25
+D £1.00
+Checkout should accept items in any order, for example:
+If we scan three items in the order A, B and A then checkout should recognise two A’s at the special
+price of £3.00 + one B at £1.50 giving a total price for all 3 items of £4.50.
+Pricing changes frequently, the code should be able to work with new offers and calculate the right
+price each time.
