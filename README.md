@@ -11,7 +11,7 @@ forth). Each item is priced individually. We also have multi-priced items: when 
 number of items you pay a fixed price for all of them. For instance, item ‘B’ costs £1.50 but this week
 we have an offer – “buy three ‘B’s and they’ll cost you £3.50”. This week’s prices are:
 Item Unit Special
-Price Price
+Price 
 --------------------------
 A £2.00 2 for £3.00
 B £1.50 3 for £3.50
@@ -25,6 +25,7 @@ price each time.
 
 
 Solution Description
+--------------------------
 
 There are 3 folders in the archive.
 One is a Java implementation as a Maven project, one is the javadoc for it and I added a python implementation for it as well. The python implementation has comments along the code to make it easier to follow.
